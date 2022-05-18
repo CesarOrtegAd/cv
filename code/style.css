@@ -1,0 +1,110 @@
+* {
+    background-color: beige;
+}
+
+/* TITULO: CURRÍCULUM VITAE */
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-bottom: auto;
+}
+
+/* NOMBRE + ÍCONO TERMINAL */
+.nombreImg {
+    display: flex;
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+}
+
+div img {
+    padding: 10px;
+}
+
+#cv {
+    background-color: black;
+    height: 2px;
+    width: 50%;
+}
+
+/* INFORMACIÓN DE CONTACTO */
+
+.contacto {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.contacto h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: auto;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos p {
+    margin-top: 15px;
+    font-family: 'Truculenta', sans-serif;
+}
+
+/* PERFIL PROFESIONAL */
+.perfil-container {
+    padding: 1px;
+    outline: auto;
+    outline-style: double;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+
+}
+
+#perfil {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+
+}
+
+/* CONTENEDOR DE CV */
+.container{
+    padding: 5px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size:30px;
+}
+.container p{
+    margin-bottom: auto;
+    margin-left: 12px;
+}
+/* EXPERIENCIA PROFESIONAL */   
+.descripcion{
+    font-size:20px;
+}
+ul{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+#cvcont{
+    background-color: black;
+    height: 2px;
+    width: 25%;
+    margin-left: 2px;
+    margin-bottom: auto;
+}
+#trab{
+    margin-left: 100px;
+}
+/* EDUCACIÓN */
+#uni{
+    margin-top: auto;
+    margin-left: 100px;
+}
+/* CURSOS Y CERTIFICACIONES */
+#git{
+    margin-left:100px;
+}
