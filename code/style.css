@@ -108,3 +108,12 @@ ul{
 #git{
     margin-left:100px;
 }
+/*HABILIDADES BLANDAS*/
+.habilidades{
+    display: flex;
+    margin-left: 45px;
+    list-style: none;
+}
+.habilidades li{
+    padding: 20px;
+}
